@@ -1,0 +1,102 @@
+/* - - -  GLOBAL STYLES - - - */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    text-align: center;
+    height: 100%;
+    color: black;
+    font-size: 1em;
+}
+
+img {
+    max-width: 50%; 
+    display: block; 
+    height: auto;
+    margin: auto;
+}
+
+#img-caption {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+ul {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 15px;
+}
+
+footer {
+    text-align: left;
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* - - -  LAYOUT STYLES - - -  */
+
+.main-nav {
+    width: 100%;
+    padding: 5px;
+    background-color: black;
+    line-height: 1.5;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 800;
+}
+
+.nav li {
+    display: block;
+}
+
+.nav a {
+    color: white;
+}
+
+.nav a:hover {
+    color: coral;
+}
+
+#tribute-info ul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.last {
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.main-footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: black;
+    color: #fff;
+}
+
+.main-footer p {
+    font-size: .85em;
+}
+
+/* Styling for Larger Screens */
+
+@media screen and (min-width: 720px) {
+    .nav {
+        max-width: 1200px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
