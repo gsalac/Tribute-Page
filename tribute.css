@@ -7,9 +7,9 @@
 body {
     font-family: Helvetica;
     text-align: center;
-    height: 100%;
     color: black;
     font-size: 1em;
+    margin-top: 0;
 }
 
 img {
@@ -26,19 +26,19 @@ img {
 }
 
 ul {
-    max-width: 650px;
+    max-width: 50%;
     margin: 0 auto;
     text-align: left;
     font-size: 15px;
-}
-
-footer {
-    text-align: left;
-    margin-top: 1em;
+    line-height: 1.75;
 }
 
 a {
     text-decoration: none;
+}
+
+a:visited {
+    color: red;
 }
 
 /* - - -  LAYOUT STYLES - - -  */
